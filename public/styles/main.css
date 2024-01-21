@@ -1,0 +1,257 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html,
+body,
+div,
+span,
+applet,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+strong,
+sub,
+sup,
+tt,
+var,
+b,
+u,
+i,
+center,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+aside,
+canvas,
+details,
+embed,
+figure,
+figcaption,
+footer,
+header,
+hgroup,
+menu,
+nav,
+output,
+ruby,
+section,
+summary,
+time,
+mark,
+audio,
+video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section {
+  display: block;
+}
+ul {
+  list-style: none;
+}
+blockquote,
+q {
+  quotes: none;
+}
+blockquote:before,
+blockquote:after,
+q:before,
+q:after {
+  content: "";
+  content: none;
+}
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+body {
+  font-family: "Poppins", sans-serif;
+  background-color: #faf9f6;
+  display: flex;
+  flex-direction: column;
+  min-height: 95vh;
+  font-size: 1.5rem;
+  color: black;
+  max-width: 60rem;
+  margin: 0 auto;
+  padding: 10px;
+  line-height: 2.5rem;
+}
+h1,
+h1 a,
+h2,
+h2 a,
+h3,
+h3 a,
+header#masthead a {
+  color: #080;
+  font-size: 4rem;
+}
+a {
+  text-decoration: none;
+  word-wrap: break-word;
+}
+a:visited {
+  color: #aaf;
+}
+a:hover {
+  text-decoration: underline;
+}
+h1 {
+  font-size: 3rem;
+  margin-bottom: 40px;
+}
+h2 {
+  font-size: 2em;
+}
+h2 a {
+  text-decoration: underline;
+  font-size: 2rem;
+}
+
+h3 {
+  line-height: 4rem;
+  font-size: 1.5em;
+}
+img {
+  float: left;
+  padding: 0px 40px 0px 0px;
+  width: 200px;
+  height: 200px;
+}
+header#masthead {
+  font-size: 3rem;
+  padding-bottom: 40px;
+}
+small {
+  font-size: 1rem;
+  color: #666;
+}
+
+.heading {
+  margin-bottom: 20px;
+}
+.abook {
+  margin: 0px 0px 20px;
+  padding-top: 0px;
+}
+strong {
+  font-weight: 800;
+}
+.form-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-family: Arial, sans-serif;
+  margin: 20px auto;
+  max-width: 80rem;
+  line-height: 10px;
+}
+
+.form-group {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 1rem;
+  width: 40rem;
+}
+
+.form-group label {
+  font-weight: bold;
+  margin-bottom: 0.5rem;
+}
+
+.form-group input[type="text"],
+.form-group input[type="date"],
+.form-group textarea {
+  padding: 0.5rem;
+  margin-top: 0.5rem;
+  border-radius: 0.25rem;
+  border: 1px solid #ccc;
+  width: 100%;
+  box-sizing: border-box;
+}
+
+.form-group input[type="range"] {
+  margin-top: 0.5rem;
+  width: 100%;
+}
+
+.form-group textarea {
+  height: 5rem;
+}
+
+.form-group input[type="submit"] {
+  margin-top: 1rem;
+  padding: 0.5rem 1rem;
+  background-color: #007acc;
+  color: #fff;
+  border: none;
+  border-radius: 0.25rem;
+  cursor: pointer;
+  transition: all 0.2s ease-in-out;
+}
+
+.form-group input[type="submit"]:hover {
+  background-color: #005b9f;
+}

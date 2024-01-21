@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="styles/main.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap"
+      rel="stylesheet"
+    />
+    <title><%= title %></title>
+  </head>
+  <body>
+    <header id="masthead">
+      <a href="/" title="Derek Sivers">AMCEETECH REVIEWS</a>
+    </header>
+    <main>
+      <form class="form-group" method="post" action="/admin">
+        <label for="author">Author:</label><br />
+        <input type="text" id="title" name="author" /><br />
+        <label for="title">Title:</label><br />
+        <input type="text" id="title" name="title" /><br />
+        <label for="isbn">ISBN:</label><br />
+        <input type="text" id="isbn" name="isbn" /><br />
+        <label for="description">Description:</label><br />
+        <textarea id="description" name="description"></textarea><br />
+
+        <label for="note">Note:</label><br />
+        <textarea id="note" name="note"></textarea><br />
+
+        <label for="date">Date:</label><br />
+        <input type="date" id="date" name="date" /><br />
+
+        <label for="rating">Rating:</label><br />
+        <input type="range" id="rating" name="rating" min="0" max="10" /><br />
+
+        <input type="submit" value="Submit" />
+      </form>
+    </main>
+  </body>
+</html>
